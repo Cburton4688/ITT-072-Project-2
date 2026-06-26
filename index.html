@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Scripting 2 — Portfolio Starter</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <span class="nav-logo">WS2</span>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#goals">Goals</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-inner">
+          <p class="eyebrow">Web Scripting 2 · Spring 2025</p>
+          <h1 id="hero-title">Hello, I'm <span class="accent">Charlie</span></h1>
+          <p id="hero-subtitle" class="hero-sub"></p>
+          <a href="#about" class="btn">See my work</a>
+        </div>
+        <div class="hero-code" aria-hidden="true" id="hero-code"></div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-inner">
+          <p class="label">01 — About</p>
+          <h2>A little about me</h2>
+          <p id="about-text"></p>
+        </div>
+      </section>
+
+      <section id="goals" class="section section-alt">
+        <div class="section-inner">
+          <p class="label">02 — Goals</p>
+          <h2>What I want to get out of this course</h2>
+          <ul class="goal-list" id="goals-list"></ul>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-inner">
+          <p class="label">03 — Skills</p>
+          <h2>Where I'm starting from</h2>
+          <div class="skills-grid" id="skills-grid"></div>
+        </div>
+      </section>
+
+      <section id="projects" class="section section-alt">
+        <div class="section-inner">
+          <p class="label">04 — Projects</p>
+          <h2>Projects this semester</h2>
+          <div class="project-grid" id="project-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built with Vite · Web Scripting 2 · <span id="footer-year"></span></p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
